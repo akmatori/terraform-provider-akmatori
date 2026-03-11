@@ -1,0 +1,21 @@
+# Compiled binaries
+terraform-provider-akmatori
+terraform-provider-akmatori-linux
+*.exe
+
+# Build output
+dist/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
